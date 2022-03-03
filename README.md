@@ -1,52 +1,31 @@
 # eBirthday-Calculator
 
 ## Description
-eBirthday Calculator takes your birthday and calculates the day of the week that you were born and then depending on your gender the results will give you your Akan Name. 
+eBirthday Calculator takes your birthday and calculates the day of the week that you were born and then depending on your gender the results will give you your Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
 
-### What is Akan Name and Why?
-
-## Live link
-To be updated
+## Author Details
+Maryanne Njuguna
 
 ## Setup/Installation Requirements
-- Clone this repository to a location in your file system. `git clone https://github.com/themaryanjuguna/MSProject.git
+- Clone this repository to a location in your file system. `git clone https://github.com/themaryanjuguna/eBirthday-calculator.git
 
-- Open terminal command line then navigate to the root folder of the application. `cd my-beginner-class`
+- Open terminal command line then navigate to the root folder of the application. `cd eBirthday-calculator`
 
 - Open `index.html` on your Browser.
 
+### Live link
+https://themaryanjuguna.github.io/eBirthday-calculator
 
-## Known Bugs
+## Behaviour Driven Development
+
+
+## Technologies used
+HTML, CSS, BootStrap, JavaScript
+
+
+### Known Bugs
 At the moment no bugs have been detected, however feel free to report any typos or rookie mistakes via the contacts provided below.
 
 
-## Technologies Used
-HTML, CSS 
-
-
 ## Support and contact details
-If they run into any issues or have questions, ideas or concerns.  Please email themaryanjuguna@gmail.com, I'll appreciaete any kind of feedback. **My Twitter/Facebook/Instagram handles @themaryanjuguna**
-
-
-### License
-MIT License
-
-Copyright (c) 2022 **Maryanne Njuguna*
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+If they run into any issues or have questions, ideas or concerns.  Please email themaryanjuguna@gmail.com, I'll appreciate any kind of feedback. **My Twitter/Facebook/Instagram handles @themaryanjuguna**
