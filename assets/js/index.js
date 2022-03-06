@@ -39,13 +39,5 @@ else {
             document.getElementById("form").innerHTML = "";
         }
     }
-   
-    function createDate (year, month, _date) {
-        var d = new Date(year, month, _date);
-        if (d.getFullYear() != year 
-          || d.getMonth() != month
-          || d.getDate() != _date) {
-          throw "invalid date";
-        }
-        return d;
-      }
+
+}
