@@ -68,40 +68,42 @@
                 </div>
             </div>
         </div>
-
+<!--Form-->
         <div class="mt-5 col-md-10 mx-auto col-lg-5">
             <div id="error"></div>
-            <form id="form" class="p-4 p-md-5 border rounded-3 bg-light">
+            <form id="form" action="" name="akanNameForm" class="p-4 p-md-5 border rounded-3 bg-light">
               <div class="form-floating mb-3">
                 <h3 class="fs-5 border-bottom">Enter your Birth Date Here:</h3>
+                <!--Input Field-->
                 <br fs-6> <strong>Birthday:</strong> 
                 <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="date" ><em class="bi bi-calendar-heart"></em></span><input type="date" class="form-control" placeholder="01/01/1900" required ><br>
-                   
+                    <span class="input-group-text" id="userBirthday" ><em class="bi bi-calendar-heart"></em></span><input type="text" class="form-control" placeholder="mm/dd/yyyy" required><br>
                   </div>
+                  <!--Select Gender-->
                   <br fs-6> <strong class="pe-3">Gender: </strong> 
-                  <div class="form-check form-check-inline" id="gender">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="userMale">
+                  <div class="form-check form-check-inline" id="userGender">
+                    <input class="form-check-input" type="radio" name="gender" id="userMale">
                     <label class="form-check-label" for="flexRadioDefault1">
                       Male
                     </label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="userFemale" checked>
+                    <input class="form-check-input" type="radio" name="gender" id="userFemale" checked>
                     <label class="form-check-label" for="flexRadioDefault2">
                       Female
                     </label>
                   </div>
-                  <div class="mt-3 d-grid gap-4 d-md-block">
-                    
-                    <button class="btn btn-success"  id="submitInput" onclick="processData()"  ><em class="bi bi-search-heart pe-3"></em>GET AKAN NAME</button> 
-                    
+                  <output id="userOutput" name="userForm" for(userBirthday, userGender)></output>
+                  <!--Submit Input-->
+                  <div class="mt-3 d-grid gap-4 d-md-block">                    
+                    <button class="btn btn-success"  id="submitInput" onclick="birthDayAlert()" ><em class="bi bi-search-heart pe-3"></em>GET AKAN NAME</button> 
                     <button class="btn btn-danger" id="resetInput" onclick="resetform()" type="reset"><em class="bi bi-x-circle pe-3"></em>Cancel</button>
                   </div>
               </div>
-              <hr class="my-4">
+              <!--Alert Results-->
+              <hr class="my-5">
               <div id="alertUser" class="alert alert-info" role="alert">
-                <span id="dayofBirth" class="fs-4 text-uppercase"></span>
+                <span id="dayOfBirth" class="fs-4 text-uppercase"></span><br>
                 <span id="akanName" class="fs-4 text-uppercase"></span>
               </div>
             </form>
