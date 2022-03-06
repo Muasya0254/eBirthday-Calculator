@@ -1,4 +1,6 @@
 
+        
+
 function birthDayAlert() {
 var myform = document.forms.akanNameForm;
 var message = document.getElementById("error");
@@ -9,6 +11,7 @@ var birthday = document.getElementById = ("userBirthday").value; //get date from
 var dateOfBirth = new Date (birthday); // use date from form
 var dayNumber = dateOfBirth.getDay(); //day of week in number
 var userGender = document.getElementsByClassName = ("gender"); //call gender
+
 
 /// if conditions
 if (birthday === "") //strict equality operator
@@ -29,7 +32,7 @@ else {
                      }
                     }
                 else if(userGender[0].checked==false && userGender[1].checked==false ) {
-                        alert("You must select male or female");
+                    document.getElementById('message').innerHTML ="You must select male or female";
                         return false;
         }
         function resetform() {
