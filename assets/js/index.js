@@ -1,14 +1,4 @@
 
-function createDate (year, month, _date) {
-    var d = new Date(year, month, _date);
-    if (d.getFullYear() != year 
-      || d.getMonth() != month
-      || d.getDate() != _date) {
-      throw "invalid date";
-    }
-    return d;
-  }
-
 function birthDayAlert() {
 var myform = document.forms.akanNameForm;
 var message = document.getElementById("error");
@@ -47,4 +37,12 @@ else {
         }
     }
    
-    
+    function createDate (year, month, _date) {
+        var d = new Date(year, month, _date);
+        if (d.getFullYear() != year 
+          || d.getMonth() != month
+          || d.getDate() != _date) {
+          throw "invalid date";
+        }
+        return d;
+      }

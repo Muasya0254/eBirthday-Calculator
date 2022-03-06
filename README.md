@@ -14,7 +14,7 @@ Maryanne Njuguna
 - Open `index.html` on your Browser.
 
 ### Live link
-https://themaryanjuguna.github.io/eBirthday-calculator
+https://themaryanjuguna.github.io/eBirthday-Calculator/
 
 ## Behaviour Driven Development
 
