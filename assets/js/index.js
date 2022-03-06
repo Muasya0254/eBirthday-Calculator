@@ -1,6 +1,3 @@
-
-        
-
 function birthDayAlert() {
 var myform = document.forms.akanNameForm;
 var message = document.getElementById("error");
@@ -16,7 +13,7 @@ var userGender = document.getElementsByClassName = ("gender"); //call gender
 /// if conditions
 if (birthday === "") //strict equality operator
 {
-    document.getElementById('AkanName').innerHTML;
+    document.getElementById('AkanName').innerHTML = "You Didn't Submit a Valid Date!";
 }
 else {
         for (var i=0;i<userGender.length;i++)
@@ -30,14 +27,13 @@ else {
                  else{
                         document.getElementById('alertUser').innerHTML = "You were born on a " + daysOfTheWeek[dayNumber] + "your Akan Name is " + akanMaleNames[dayNumber] ;
                      }
-                    }
+                    {
                 else if(userGender[0].checked==false && userGender[1].checked==false ) {
                     document.getElementById('message').innerHTML ="You must select male or female";
                         return false;
         }
-        function resetform() {
-            document.getElementById("form").innerHTML = "";
+    }
+    }
         }
     }
-
-}
+    }
