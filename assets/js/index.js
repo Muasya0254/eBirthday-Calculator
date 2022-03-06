@@ -1,6 +1,3 @@
-function resetform() {
-    document.getElementById("form").innerHTML = "";
-}
 
 function createDate (year, month, _date) {
     var d = new Date(year, month, _date);
@@ -45,6 +42,9 @@ else {
                         alert("You must select male or female");
                         return false;
         }
+        function resetform() {
+            document.getElementById("form").innerHTML = "";
+        }
     }
-
-//////// reset button
+   
+    
