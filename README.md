@@ -7,7 +7,7 @@ eBirthday Calculator takes your birthday and calculates the day of the week that
 Maryanne Njuguna
 
 ## Setup/Installation Requirements
-- Clone this repository to a location in your file system. `git clone https://github.com/themaryanjuguna/eBirthday-calculator.git
+- Clone this repository to a location in your file system. `git clone https://github.com/themaryanjuguna/eBirthday-calculator.git`
 
 - Open terminal command line then navigate to the root folder of the application. `cd eBirthday-calculator`
 
